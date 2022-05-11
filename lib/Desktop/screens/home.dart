@@ -153,8 +153,12 @@ class _StoryState extends State<Story> {
                 top: 10,
                 left: 10,
                 child: CircleAvatar(
-                  radius: 10,
-                  backgroundImage: NetworkImage(nimages[index]),
+                  radius: 15,
+                  child: CircleAvatar(
+                      radius: 12,
+                      backgroundImage: NetworkImage(
+                        nimages[index],
+                      )),
                 ),
               )
             ],

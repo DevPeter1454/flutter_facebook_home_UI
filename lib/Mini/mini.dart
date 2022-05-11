@@ -57,35 +57,35 @@ class _MiniState extends State<Mini> {
                     width: 500,
                     child: TabBar(
                         indicatorWeight: 3.0,
-                        indicatorColor:  Color(0XFF1B74E4),
+                        indicatorColor: Color(0XFF1B74E4),
                         tabs: [
                           Tab(
-                              icon:  Icon(
-                                Icons.home_filled,
-                                color: Color(0XFF8B8D90),
-                              ),
-                          ),
-                           Tab(
                             icon: Icon(
                               Icons.home_filled,
                               color: Color(0XFF8B8D90),
                             ),
                           ),
-                           Tab(
+                          Tab(
                             icon: Icon(
-                              Icons.home_filled,
+                              Icons.group_outlined,
                               color: Color(0XFF8B8D90),
                             ),
                           ),
-                           Tab(
+                          Tab(
                             icon: Icon(
-                              Icons.home_filled,
+                              Icons.video_collection_rounded,
                               color: Color(0XFF8B8D90),
                             ),
                           ),
-                           Tab(
+                          Tab(
                             icon: Icon(
-                              Icons.home_filled,
+                              Icons.account_circle,
+                              color: Color(0XFF8B8D90),
+                            ),
+                          ),
+                          Tab(
+                            icon: Icon(
+                              Icons.notifications,
                               color: Color(0XFF8B8D90),
                             ),
                           ),
@@ -179,7 +179,7 @@ class _MiniState extends State<Mini> {
         drawer: Drawer(
             // backgroundColor: Color(0XFF65676B),
             child: List()),
-        body: Row(children:  [
+        body: Row(children: [
           // Expanded(flex: 1, child: List()),
           Expanded(
               flex: 2,
